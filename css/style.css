@@ -8,7 +8,10 @@
 
 .fa-bell{
     color: rgb(255, 166, 1);
+
 }
 
-
-
+.small-icon-nav{
+    display: inline-block;
+    padding: 0 .5rem;
+}

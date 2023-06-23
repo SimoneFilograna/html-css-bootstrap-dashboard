@@ -14,7 +14,7 @@
     <body>
         <header>
             <nav class="navbar bg-body">
-                <div class="container-fluid flex-nowrap ">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img class="logo-nav" src="./img/mobile-logo.png" alt="Boolean Logo" >
                     </a>
@@ -22,12 +22,18 @@
                         <input class="form-control me-2 bg-secondary-subtle " type="search" placeholder=" &#x1F50D; Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </form>
                     
+                    <div class="d-none d-lg-inline-block">
+                        <small class="small-icon-nav"><i class="fa-solid fa-bars"></i></small>
+                        <small class="small-icon-nav"><i class="fa-solid fa-circle-question"></i></small>
+                        <small class="small-icon-nav"><i class="fa-solid fa-ellipsis-vertical"></i></small>
+                    </div>
+
                     <div class="dropdown">
-                        <i class="fa-solid fa-bell dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <i class="fa-solid fa-bell dropdown-toggle ps-2" data-bs-toggle="dropdown" aria-expanded="false"></i>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item">Action</a></li>
+                            <li><a class="dropdown-item">Another action</a></li>
+                            <li><a class="dropdown-item">Something else here</a></li>
                         </ul>
                     </div>
 
@@ -39,7 +45,7 @@
         <main>
             <!-- sidebar -->
             <section>
-
+                
             </section>
 
             <!-- main-content -->
