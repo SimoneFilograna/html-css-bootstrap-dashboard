@@ -16,11 +16,15 @@
 
 }
 
+.content-container{
+    height: calc(100vh - 86px);
+    overflow: auto;
+}
+
 .small-icon-nav{
     display: inline-block;
     padding: 0 .5rem;
 }
-
 
 .side-bar{
     width: 80px; 
@@ -29,7 +33,18 @@
     height: calc(100vh - 86px);
 }
 
+
 .my-bg-mark{
     background-color: rgb(22, 91, 186);
     font-size: .8rem;
 }
+
+.icon-table{
+    background-color: rgb(242, 101, 81);
+    color: white;
+    padding: .6rem;   
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
