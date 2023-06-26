@@ -48,3 +48,8 @@
     border-radius: 50%;
 }
 
+.fa-pen, .fa-trash{
+    color: grey;
+    border: 1px solid grey;
+    padding: .5rem;
+}
