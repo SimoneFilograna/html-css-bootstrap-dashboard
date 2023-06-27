@@ -32,6 +32,8 @@
     flex-direction: column;
     height: calc(100vh - 86px);
     align-items: center;
+    background-image: url(../img/sidebar-bg.png);
+    
 }
 
 .side-bar ul li a {
