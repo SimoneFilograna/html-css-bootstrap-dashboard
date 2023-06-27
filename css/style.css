@@ -33,7 +33,7 @@
     height: calc(100vh - 86px);
     align-items: center;
     background-image: url(../img/sidebar-bg.png);
-    
+
 }
 
 .side-bar ul li a {
@@ -43,6 +43,13 @@
     font-weight: 400;
 }
 
+.side-bar ul li a:hover{
+    color: white;
+}
+
+.side-bar ul li:hover{
+    background-color: rgba(255, 255, 255, .7);
+}
 
 
 
