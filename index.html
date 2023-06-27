@@ -19,7 +19,7 @@
                         <img class="logo-nav d-lg-none" src="./img/mobile-logo.png" alt="Boolean Logo">
                         <img class="logo-nav-lg d-none d-lg-block" src="./img/logo.svg" alt="Boolean Logo Desktop">
                     </a>
-                    <form class="d-flex ps-1 pe-3 flex-fill" role="search">
+                    <form class="d-flex ps-1 pe-3 flex-grow-1" role="search">
                         <input class="form-control me-2 bg-secondary-subtle " type="search" placeholder=" &#x1F50D; Prova a cercare: Lezioni di Laravel" aria-label="Search">
                     </form>
                     
@@ -76,13 +76,15 @@
                             </li>
                         </ul>
                     </div>
+
+
                         <!-- main-content -->
             
                         <div class="text-light content-container">
                             <!-- blue-bar -->
                             <div class="bg-primary p-3">
                                 <div class="row">
-                                    <div class="col-12 col-md-4 order-2">
+                                    <div class="col-12 col-md-4 col-lg-3 order-2">
                                         <div class="box py-3">
                                             <span class="fw-medium">Nuovo Studente</span>
                                             <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
@@ -104,18 +106,22 @@
                                         </div>
                                     </div>
     
-                                    <div class="col-12 col-md-4 order-0">
+                                    <div class="col-12 col-md-4 col-lg-5 order-0">
                                         <div class="box py-3">
                                             <span class="fs-2 fw-medium">Boolean <span class="badge my-bg-mark rounded-pill fw-normal">Piano Blaze</span></span>
                                             <div>
                                                 <span class="badge my-bg-mark rounded-pill fw-normal"> 3 App</span>
                                                 <span><i class="fa-solid fa-angles-right"></i></span>    
-                                                <span><i class="fa-solid fa-plus my-bg-mark rounded-circle p-2"></i></span>   
+                                                <span><i class="fa-solid fa-plus my-bg-mark rounded-circle p-2 d-lg-none"></i></span>   
+                                                <span class="badge my-bg-mark rounded-pill fw-normal d-none d-lg-inline-block">Boolean Mobile App</span>
+                                                <span class="badge my-bg-mark rounded-pill fw-normal d-none d-lg-inline-block">Boolean Web App</span>
+                                                <span class="badge my-bg-mark rounded-pill fw-normal d-none d-lg-inline-block">Boolean Blog App</span>
+
                                             </div>       
                                         </div>
                                     </div>
     
-                                    <div class="col-12 col-md-4 order-1">
+                                    <div class="col-12 col-md-4 col-lg-4 order-1">
                                         <div class="box py-3">
                                             <span class="d-inline-block pb-1">Studenti online negli ultimi 30 minuti</span>
                                             <h4 class="fs-1">125</h4>                                
