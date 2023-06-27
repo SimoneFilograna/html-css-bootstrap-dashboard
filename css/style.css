@@ -73,6 +73,9 @@
     padding: .5rem;
 }
 
+.offcanvas {
+    --bs-offcanvas-width: 800px
+}
 
 
 
