@@ -58,14 +58,6 @@
     font-size: .8rem;
 }
 
-.icon-table{
-    background-color: rgb(242, 101, 81);
-    color: white;
-    padding: .6rem;   
-    width: 40px;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-}
 
 .fa-pen, .fa-trash{
     color: grey;
